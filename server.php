@@ -14,7 +14,7 @@ try {
   $server = new SOAPServer(
     NULL,
     array(
-     'uri' => 'http://localhost/crud_SOAP/server.php'
+     'uri' => 'https://crudsoapweb.herokuapp.com/server.php'
     )
   );
 
